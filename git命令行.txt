@@ -1,0 +1,30 @@
+1. 右键Git Bash
+
+2. 进入本地仓库目录 cd
+cd E:\C++\Hella
+
+3. 查看状态 git status
+显示未被追踪的文件 untracked files
+
+4. 添加文件git add .
+
+5. 提交 git commit -m "..."
+git commit：将暂存区里的内容保存为一个永久快照（版本）
+-m：直接在命令行中提供提交说明（message），而不是打开编辑器让你写
+
+-------------------------------
+关于QT项目
+# 直接创建名为 .gitignore 的文件，并写入一条规则
+echo "build*/" > .gitignore
+
+build*/
+*.o
+*.obj
+*.exe
+*.user
+*.pro.user
+
+避免把 Qt 项目的“垃圾文件”提交到 Git 仓库
+-------------------------------
+
+6.推送到远程 git push origin main
