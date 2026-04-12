@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-592a4cf55f89614d9f84.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "41105",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "41105::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-41105-Debug-5191fc83b5459498422f.json",
+					"name" : "41105",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "41105_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-41105_autogen-Debug-388bd593572809dd7cb1.json",
+					"name" : "41105_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "41105_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-41105_autogen_timestamp_deps-Debug-e027f895934ab9e469ac.json",
+					"name" : "41105_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/C++/41105/build/Desktop_Qt_5_15_2_MinGW_32_bit-Debug",
+		"source" : "E:/C++/41105"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

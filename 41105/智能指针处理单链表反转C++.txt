@@ -1,0 +1,1 @@
+struct Node改为std::unique_ptr<Node>管理内存，体验一次“自动释放”的快感。
