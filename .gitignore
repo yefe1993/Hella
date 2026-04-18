@@ -1,6 +1,66 @@
-build*/
-*.o
-*.obj
-*.exe
+# =========================
+# Build directories
+# =========================
+build/
+cmake-build-*/
+*/build/
+out/
+debug/
+release/
+
+# =========================
+# Qt Creator / Qt project files
+# =========================
 *.user
 *.pro.user
+*.qmlproject.user
+
+# =========================
+# CMake
+# =========================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# =========================
+# Compiled object files
+# =========================
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+
+# =========================
+# Qt build artifacts
+# =========================
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Optional (Qt Creator build kits)
+# =========================
+*.autosave
